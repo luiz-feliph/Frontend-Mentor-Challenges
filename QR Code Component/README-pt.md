@@ -44,4 +44,4 @@ Resolvi esse desafio tranquilamente, sem grandes dificuldades. Por ser o primeir
 
 A aplicação está hospedada via GitHub Pages.
 <br>
-<a href="https://luiz-feliph.github.io/Frontend-Mentor-Challenges/QR%Code%Component">Clique Aqui </a> para visualizar a aplicação.
+<a href="https://luiz-feliph.github.io/Frontend-Mentor-Challenges/QR%20Code%20Component">Clique Aqui </a> para visualizar a aplicação.
