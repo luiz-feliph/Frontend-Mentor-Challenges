@@ -75,6 +75,7 @@ nav ul li a:hover {
   inset: 0;
   cursor: pointer;
   z-index: 3;
+  -webkit-tap-highlight-color: transparent;
 }
 
 main {
