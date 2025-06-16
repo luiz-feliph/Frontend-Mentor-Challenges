@@ -33,6 +33,7 @@ The challenges are classified by complexity and the skills required:
 |----------|-------|-----------|--------------|
 | **QR Code Component** | 🟢 Newbie | [View Project](https://luiz-feliph.github.io/Frontend-Mentor-Challenges/QR%20Code%20Component/) | HTML, CSS |
 | **News Homepage** | 🔵 Junior | [View Project](https://luiz-feliph.github.io/Frontend-Mentor-Challenges/News%20Homepage/) | HTML, CSS, JavaScript |
+| **Interactive Card Details Form** | 🔵 Junior | [View Project](https://luiz-feliph.github.io/Frontend-Mentor-Challenges/Interactive%20Card%20Details%20Form/) | HTML, CSS, JavaScript |
 | ... | ... | ... | ... |
 
 > 📌 *This table will be updated as I complete more challenges.*
