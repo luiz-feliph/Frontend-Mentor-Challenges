@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="image-bg">
+      <div class="card-image">
+
+        <div class="card-front">
+          <div class="card-front-elements">
+            <img src="./images/card-logo.svg" alt="card-logo" id="card-logo">
+            <div class="manipulable-elements">
+              <h1 id="card-number-element">0000 0000 0000 0000</h1>
+              <div class="name-date">
+                <h2 id="name-element">JANE APPLESEED</h2>
+                <div class="date-elements">
+                  <h2 id="month-element">00</h2>
+                  <h2>/</h2>
+                  <h2 id="year-element">00</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-back">
+          <div id="cvc-element">
+            <h3>000</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="success display-none">
+        <img src="./images/icon-complete.svg" alt="">
+        <h1>THANK YOU!</h1>
+        <h2>We've added your card details</h2>
+        <button class="button">Continue</button>
+      </div>
+      <div class="form-area">
+        <form method="post" class="form-layout">
+          <label class="input-layout two-columns">
+            Cardholder Name
+            <input type="text" name="cardholderName" id="cardholder-name" placeholder="e.g. Jane Appleseed" autocomplete="off">
+            <span class="error" id="error-cardholder-name"></span>
+          </label>
+
+          <label class="input-layout two-columns">
+            Card Number
+            <input type="text" name="cardNumber" id="card-number" maxlength="19" placeholder="e.g. 1234 5678 9123 0000" autocomplete="off">
+            <span class="error" id="error-card-number"></span>
+          </label>
+
+          <div class="input-layout">
+            <label>Exp. Date (MM/YY)</label>
+            <div class="exp-date-inputs">
+              <input type="text" name="month" id="month" pattern="\d{2}" maxlength="2" placeholder="MM" inputmode="numeric" autocomplete="off">
+              <input type="text" name="year" id="year" pattern="\d{2}" maxlength="2" placeholder="YY" inputmode="numeric" autocomplete="off">
+            </div>
+            <span class="error" id="error-year"></span>
+            <span class="error" id="error-month"></span>
+          </div>
+
+          <label class="input-layout">
+            CVC
+            <input type="text" name="cvc" id="cvc" pattern="\d{3}" maxlength="3" placeholder="e.g. 123" inputmode="numeric" autocomplete="off">
+            <span class="error" id="error-cvc"></span>
+          </label>
+        </form>
+        <button class="button" onclick="verification()">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Thank you!
+  We've added your card details
+  Continue -->
+  <script src="./script.js"></script>
+</body>
+
+</html>
