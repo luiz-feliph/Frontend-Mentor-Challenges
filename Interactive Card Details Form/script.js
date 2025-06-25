@@ -86,7 +86,7 @@ function verification() {
 
         houveErro = true;
       } else if (!onlyNumbers(input.value.trim().replace(/\s/g, ''))) {
-        errorArray[i].innerHTML = "Card number cannot contain letters or special symbols.";
+        errorArray[i].innerHTML = "Only numbers allowed in card number.";
         input.classList.add("errorOutline");
 
         houveErro = true;
